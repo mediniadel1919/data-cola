@@ -1742,13 +1742,14 @@ h6, .h6 {
     opacity: 1;
     right: 50%; }
   .post-standard .post-thumb {
-    position: relative;
+    display: flex;
+    justify-content: space-evenly;
     margin-bottom: 60px;
     box-shadow: 24px 50px 60px rgba(0, 0, 0, 0.3);
     text-align: center; }
     @media (max-width: 480px) {
       .post-standard .post-thumb {
-        margin-bottom: 40px; } }
+        margin-bottom: 4000px; } }
     .post-standard .post-thumb .link-image {
       color: #fff;
       font-size: 36px;
